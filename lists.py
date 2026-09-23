@@ -14,3 +14,13 @@ arr.sort()
 print(arr)
 arr.reverse()
 print(arr)
+print(sum(arr))
+print(min(arr))
+print(max(arr))
+print(len(arr))
+x = int(input("Enter a number: "))
+square = [i*i for i in range(1, x+1)]
+print(square)
+list = [1,2,3,4,5,6,7,8,9]
+even = [i for i in list if i % 2 == 0]
+print(even)
